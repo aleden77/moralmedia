@@ -29,7 +29,7 @@ Repo → **Settings → Pages** → *Source:* **Deploy from a branch** → Branc
 After a minute or two the site appears at `https://<your-username>.github.io/moralmedia/`. This preview address works fully, so you can check everything there before touching DNS.
 
 ### 4. Connect moralmedia.org
-In **Settings → Pages → Custom domain**, enter `moralmedia.org` and save (the `CNAME` file already says this).
+First, in `_config.yml`, change `baseurl: "/moralmedia"` to `baseurl: ""` and commit. Then in **Settings → Pages → Custom domain**, enter `moralmedia.org` and save.
 
 Then, wherever the domain's DNS is managed (registrar, or WordPress.com if the domain was bought there), set:
 
