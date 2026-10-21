@@ -9,4 +9,4 @@ We are excited to announce the dates and deadlines for Moral Media 2019!
 - **Submission deadline:** September 1, 2019
 - **Location:** Michigan State University
 
-The [2019 agenda](/wp-content/uploads/2019/09/moral_media_agenda_2019.pdf) is available in our [archives](/archives/).
+The [2019 agenda]({{ site.baseurl }}/wp-content/uploads/2019/09/moral_media_agenda_2019.pdf) is available in our [archives]({{ site.baseurl }}/archives/).

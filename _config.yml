@@ -1,8 +1,8 @@
 title: Media & Morality
 description: >-
   Conference planning home for researchers interested in media and morality.
-url: "https://moralmedia.org"
-baseurl: ""
+# url and baseurl are set automatically by GitHub Pages
+# (works both at aleden77.github.io/moralmedia and at moralmedia.org)
 
 # Keep the same URLs the WordPress site used (e.g. /moral-media-2018-in-planning/)
 permalink: /:title/

@@ -26,7 +26,7 @@ It saves 18 images and 2 PDFs into `wp-content/uploads/…` (same paths as on Wo
 
 ### 3. Turn on GitHub Pages
 Repo → **Settings → Pages** → *Source:* **Deploy from a branch** → Branch **main**, folder **/ (root)** → Save.
-After a minute or two the site appears at `https://<your-username>.github.io/moralmedia/`. Images and links will look broken there — that's expected until the domain is connected (the site is built for `moralmedia.org` at the root).
+After a minute or two the site appears at `https://<your-username>.github.io/moralmedia/`. This preview address works fully, so you can check everything there before touching DNS.
 
 ### 4. Connect moralmedia.org
 In **Settings → Pages → Custom domain**, enter `moralmedia.org` and save (the `CNAME` file already says this).
@@ -81,7 +81,7 @@ title: "Your title here"
 Your text here.
 ```
 
-**Add an image or PDF:** upload it to an `images/` folder (Add file → Upload files), then link it as `/images/filename.jpg`.
+**Add an image or PDF:** upload it to an `images/` folder (Add file → Upload files), then link it as `{{ site.baseurl }}/images/filename.jpg`. Write links to other pages on the site the same way, e.g. `[Archives]({{ site.baseurl }}/archives/)`, so they work both at the github.io preview address and at moralmedia.org.
 
 **Start a new conference page:** copy `moral-media-2027.md`, change the `title` and `permalink`, and update `_data/navigation.yml` to point at it. Move the old one into `archives.md`.
 

@@ -9,4 +9,4 @@ After a Covid-19 induced hiatus in 2020 and 2021, we are excited to announce the
 - **Submission deadline:** March 13, 2022
 - **Location:** Department of Communication, University of California, Davis
 
-The [conference program](/wp-content/uploads/2022/04/mmm22_program.pdf) is available in our [archives](/archives/).
+The [conference program]({{ site.baseurl }}/wp-content/uploads/2022/04/mmm22_program.pdf) is available in our [archives]({{ site.baseurl }}/archives/).
