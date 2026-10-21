@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<article class="wrap prose">
+  <p class="meta"><a href="{{ '/announcements/' | relative_url }}">Announcements</a> &middot; {{ page.date | date: "%B %-d, %Y" }}</p>
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% if page.image %}<img class="post-image" src="{{ page.image | relative_url }}" alt="">{% endif %}
+  {{ content }}
+</article>

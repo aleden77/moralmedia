@@ -1,0 +1,24 @@
+title: Media & Morality
+description: >-
+  Conference planning home for researchers interested in media and morality.
+url: "https://moralmedia.org"
+baseurl: ""
+
+# Keep the same URLs the WordPress site used (e.g. /moral-media-2018-in-planning/)
+permalink: /:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - fetch-wp-uploads.sh
+  - Gemfile
+  - Gemfile.lock
+  - vendor
